@@ -1,0 +1,7 @@
+name: .NET
+
+on: [pull_request]
+
+steps:
+  jobs:
+    run: echo "Hello guys"
