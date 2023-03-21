@@ -2,6 +2,8 @@ name: .NET
 
 on: [pull_request]
 
-steps:
-  jobs:
-    run: echo "Hello guys"
+jobs:
+  welcome:
+    steps:
+      -name: Hello message 
+      run: echo "Hello guys"
