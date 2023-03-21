@@ -6,4 +6,4 @@ jobs:
   welcome:
     steps:
       - name: Hello message 
-      run: echo "Hello guys"
+        run: echo "Hello guys"
