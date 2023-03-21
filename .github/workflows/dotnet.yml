@@ -5,5 +5,5 @@ on: [pull_request]
 jobs:
   welcome:
     steps:
-      -name: Hello message 
+      - name: Hello message 
       run: echo "Hello guys"
