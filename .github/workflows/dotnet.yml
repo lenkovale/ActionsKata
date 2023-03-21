@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   welcome:
+    runs-on: ubuntu-latest
     steps:
       - name: Hello message 
         run: echo "Hello guys"
